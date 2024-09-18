@@ -51,7 +51,7 @@
 #     case _:
 #         print("banyak banar")
 
-#                                                             CONTOH PERCABANGAN
+#                                                         CONTOH PERCABANGAN LAINNYA
 # nilai = int(input("Masukkan nilai anda : "))
 
 # if nilai > 100 :
@@ -68,9 +68,3 @@
 #         print("nilai anda B-")
 # else:
 #     print("nilai anda tidak memenuhi syarat")
-
-# no = 10
-# if no % 2 == 0:
-#     print("Genap")
-# else:
-#     print("Ganjil")

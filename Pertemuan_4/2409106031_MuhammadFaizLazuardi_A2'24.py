@@ -50,13 +50,13 @@ bersihkan() # dipakai untuk membersihkan tampilan terminal
 
 
 #                                                             Studi Kasus 2
-# total = 0
-# angka = 0
+total = 0
+angka = 0
 
-# while angka >= 0:
-#     angka = int(input("Masukkan Angka: "))
-#     if angka < 0:
-#         break
-#     total += angka
+while angka >= 0:
+    angka = int(input("Masukkan Angka: "))
+    if angka < 0:
+        break
+    total += angka
 
-# print("Jumlah total dari inputan adalah:", total)
+print("Jumlah total dari inputan adalah:", total)

@@ -17,10 +17,10 @@ clean() # dipakai untuk membersihkan tampilan terminal
 #     print(i) #menampilkan output secara bertahap (kebawah)
 # print(mahasiswa) #menampilkan output secara langsung (kekanan)
 
-# for i in range(5, 11): # dimulai dari 5 dan berakhir di 10
-#     for j in range(1, 11): # dimulai dari 1 dan berakhir di 10
-#         print(f"{i} x {j} = {i*j}")
-#     print() #digunakan untuk memberi spasi antar perkalian diatas
+for i in range(5, 11): # dimulai dari 5 dan berakhir di 10
+    for j in range(1, 11): # dimulai dari 1 dan berakhir di 10
+        print(f"{i} * {j} = {i*j}")
+    print() #digunakan untuk memberi spasi antar perkalian diatas
 
 #                                                          PENGULANGAN WHILE
 # jawab = "Y"

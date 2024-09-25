@@ -6,7 +6,7 @@ def clean():
 clean() # dipakai untuk membersihkan tampilan terminal
 
 
-# # #                                  PENGULANGAN FOR (kita menentukan berapa kali kita ingin mengulang)
+# #                                     PENGULANGAN FOR (kita menentukan berapa kali kita ingin mengulang)
 # ulang = 11 # dimulai dari 0 dan berakhir di 10
 # print("Banyak Perulangan Yang Dilakukan Adalah:")
 # for i in range(ulang):
@@ -44,10 +44,10 @@ clean() # dipakai untuk membersihkan tampilan terminal
 # for i in makan:
 #     for j in minum:
 #         print(f"{i} & {j}")
-    # print()
+#     print()
 
 
-# # #                                                        PENGULANGAN WHILE
+# #                                                  PENGULANGAN WHILE (selama  memenuhi syarat dia lanjut terus)
 # jawab = "Y"
 # hitung = 0
 # while (jawab == "Y" or jawab == "y"):
@@ -85,14 +85,14 @@ clean() # dipakai untuk membersihkan tampilan terminal
 #         continue # dalam kondisi ini ga dipakai juga bisa
 #     print(i)
 
-# # #                                                           Studi Kasus 2
-total = 0
-angka = 0
+# #                                                            Studi Kasus 2
+# total = 0
+# angka = 0
 
-while angka >= 0:
-    angka = int(input("Masukkan Angka: "))
-    if angka < 0:
-        break
-    total += angka
+# while angka >= 0:
+#     angka = int(input("Masukkan Angka: "))
+#     if angka < 0:
+#         break
+#     total += angka
 
-print("Jumlah total dari inputan adalah:", total)
+# print("Jumlah total dari inputan adalah:", total)

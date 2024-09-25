@@ -74,25 +74,25 @@ clean() # dipakai untuk membersihkan tampilan terminal
 #         break
 # print(f"Total Perulangan: {hitung}")
 
-# continue # kalau memenuhi syarat maka dia dilewati, jika beda maka dia akan di print
-print("Daftar bilangan genap dari 1-10")
-for i in range(1, 11): # dimulai dari 1 dan berakhir di 10
-    if i % 2 == 0: 
-        print(f"{i} Adalah Genap")
-        continue # dalam kondisi ini ga dipakai juga bisa
-    else:
-        print(f"{i} Adalah Ganjil")
-        continue # dalam kondisi ini ga dipakai juga bisa
-    print(i)
+# # continue # kalau memenuhi syarat maka dia dilewati, jika beda maka dia akan di print
+# print("Daftar bilangan genap dari 1-10")
+# for i in range(1, 11): # dimulai dari 1 dan berakhir di 10
+#     if i % 2 == 0: 
+#         print(f"{i} Adalah Genap")
+#         continue # dalam kondisi ini ga dipakai juga bisa
+#     else:
+#         print(f"{i} Adalah Ganjil")
+#         continue # dalam kondisi ini ga dipakai juga bisa
+#     print(i)
 
 # # #                                                           Studi Kasus 2
-# total = 0
-# angka = 0
+total = 0
+angka = 0
 
-# while angka >= 0:
-#     angka = int(input("Masukkan Angka: "))
-#     if angka < 0:
-#         break
-#     total += angka
+while angka >= 0:
+    angka = int(input("Masukkan Angka: "))
+    if angka < 0:
+        break
+    total += angka
 
-# print("Jumlah total dari inputan adalah:", total)
+print("Jumlah total dari inputan adalah:", total)

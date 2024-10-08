@@ -11,7 +11,7 @@ clean() # dipakai untuk membersihkan tampilan terminal
 #     "buah1" : "apel",
 #     "buah2" : "jeruk",
 #     "buah3" : "mangga",
-#     "buah4" : "pisang" 
+#     "buah4" : "pisang"
 # }
 
 # print(daftar_buah["buah1"])
@@ -30,7 +30,7 @@ clean() # dipakai untuk membersihkan tampilan terminal
 
 
 # #                                                          SIFAT DICTIONARY
-# #          UNIQUE 
+# #          UNIQUE
 # (jika terdapat lebih dari satu value dengan 'key' yang sama, maka value dengan 'key' yang terakhir didefinisikanlah yang diambil)
 # komik = {
 #     "judul" : "one piece",

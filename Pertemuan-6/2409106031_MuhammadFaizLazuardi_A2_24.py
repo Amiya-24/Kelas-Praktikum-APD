@@ -247,6 +247,13 @@ clean() # dipakai untuk membersihkan tampilan terminal
 # mahasiswa[46]["Kelas"] = "B"
 # print(mahasiswa)
 
+# #           CONTOH HASIL
+# for i, j in mahasiswa.items():
+#     print("NIM Mahasiswa :",i)
+#     for i_a, j_a in j.items():
+#         print(i_a, ":", j_a)
+#     print("")
+
 # #           MENGHAPUS ITEM
 # del mahasiswa[46]["Kelas"]
 # print(mahasiswa)

@@ -260,5 +260,52 @@ clean() # dipakai untuk membersihkan tampilan terminal
 # del mahasiswa[46]
 # print(mahasiswa)
 
+# print("Hello, World")
 
-# #                                                             STUDI KASUS
+# #                                                             STUDI KASUS 1
+# bio = {
+#     "Nama" : "Muhammad Faiz Lazuardi",
+#     "Nim" : 2409106031,
+#     "Umur" : 18,
+#     "Angkatan" : 24,
+#     "Jurusan" : "Informatika"
+# }
+# print("Biodata Awal")
+# for i,j in bio.items():
+#     print(f"{i} : {j}")
+# print("")
+
+# print("Biodata Setelah Menambahkan Items")
+# bio.update({"Fakultas" : "Teknik"})
+# for i,j in bio.items():
+#     print(f"{i} : {j}")
+# print("")
+
+# print("Biodata Setelah Mengubah Items")
+# bio.update({"Umur" : 20})
+# for i,j in bio.items():
+#     print(f"{i} : {j}")
+# print("")
+
+# print("Biodata Setelah Menghapus Items")
+# del bio["Fakultas"]
+# for i,j in bio.items():
+#     print(f"{i} : {j}")
+# print("")
+
+# #                                                              STUDI KASUS 2
+# mapel = {
+#     'Matematika' : 90,
+#     'Fisika' : 80,
+#     'Biologi': 80,
+#     'Kimia' : 70
+# }
+
+# for i,j in mapel.items():
+#     print(f"{i} : {j}")
+# print("")
+
+# total = sum(mapel.values())
+# print("Nilai total : ", total)
+# rata = total / len(mapel)
+# print("Nilai rata-rata : ", rata)

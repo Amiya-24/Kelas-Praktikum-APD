@@ -293,6 +293,7 @@ clean() # dipakai untuk membersihkan tampilan terminal
 #     print(f"{i} : {j}")
 # print("")
 
+
 # #                                                              STUDI KASUS 2
 # mapel = {
 #     'Matematika' : 90,

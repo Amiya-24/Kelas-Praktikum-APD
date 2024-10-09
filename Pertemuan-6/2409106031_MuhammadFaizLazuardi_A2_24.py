@@ -31,7 +31,7 @@ clean() # dipakai untuk membersihkan tampilan terminal
 
 # #                                                          SIFAT DICTIONARY
 # #          UNIQUE
-# (jika terdapat lebih dari satu value dengan 'key' yang sama, maka value dengan 'key' yang terakhir didefinisikanlah yang diambil)
+# #(jika terdapat lebih dari satu value dengan 'key' yang sama, maka value dengan 'key' yang terakhir didefinisikanlah yang diambil)
 # komik = {
 #     "judul" : "one piece",
 #     "judul" : "naruto",
@@ -86,8 +86,9 @@ clean() # dipakai untuk membersihkan tampilan terminal
 # Nama        : {bio.get('Nama')}
 # Nim         : {bio.get('Nim')}
 # Kelas       : {bio.get('Kelas')}
-# Instagram   : {bio.get('instagram')}
-# Discord     : {bio.get('discord')}
+# KRS         : {bio.get('KRS')[2]}
+# Instagram   : {bio.get('Sosmed')['instagram']}
+# Discord     : {bio.get('Sosmed')['discord']}
 # """)
 
 # #                                                          PERULANGAN
@@ -106,6 +107,11 @@ clean() # dipakai untuk membersihkan tampilan terminal
 # #           MENGGUNAKAN .items
 # for i,j in bio.items():
 #     print(f"{i} : {j}")
+# print("")
+
+# #       CARA LAIN
+# for i in bio:
+#     print(f"{i} : {bio[i]}")
 
 # #                                                          MENAMBAHKAN ITEM
 # hero = {
@@ -196,6 +202,13 @@ clean() # dipakai untuk membersihkan tampilan terminal
 #     print(j)
 
 # #                                                         SET DEFAULT
+# bio = {
+#     "Nama" : "Muhammad Faiz Lazuardi",
+#     "Nim" : 2409106031,
+#     "Kelas" : "A",
+#     "Angkatan" : 24
+# }
+
 # print(bio)
 # print("Hobi : ", bio.setdefault("Hobi","Membaca"))
 # bio.setdefault("Kesukaan","Tidur")

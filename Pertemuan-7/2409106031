@@ -1,0 +1,80 @@
+import os
+
+def clean():
+    os.system("cls")
+
+clean() # dipakai untuk membersihkan tampilan terminal
+
+# #                                                           “Fungsi dan Prosedur”
+# def main():
+#     print("Hello, World")
+
+# main()
+
+
+# #           MEMBUAT FUNGSI
+# def AI_Unmul_1():
+#     print("AI UNMUL")
+
+# def AI_Unmul_2():
+#     print("SATU, PADU, INFORMATIKA")
+
+# def Teknik_1():
+#     print("TEKNIK, JAYA")
+
+# def Teknik_2():
+#     print("TEKNIK, MENYALA")
+
+
+# #           PEMANGGILAN FUNGSI
+# AI_Unmul_1()
+# AI_Unmul_2()
+
+
+# #           PEMANGGILAN FUNGSI 3X
+# Teknik_1()
+# Teknik_1()
+# Teknik_1()
+# Teknik_2()
+
+
+# #           Fungsi dengan Parameter
+# def luas_persegi_panjang(panjang, lebar):
+#     luas = panjang * lebar
+#     print ("Luas persegi panjang:", luas)
+
+# luas_persegi_panjang(4, 6)
+
+
+# #           Fungsi Pengembalian Nilai
+# def luas_persegi(sisi):
+#     luas = sisi * sisi
+#     return luas # yang dikembalikan adalah rumusnya bukan hasilnya
+
+# def volume_persegi(sisi):
+#     volume = luas_persegi(sisi) * sisi
+#     print ("Volume Persegi = ", volume)
+
+# luas_persegi(4)
+# volume_persegi(6)
+
+
+# Variabel Global dan Lokal
+
+# membuat variabel global
+Nama = "Informatika"
+Mata_Kuliah = "Algoritma dan Pemrograman Dasar"
+
+# membuat variabel lokal
+def info():
+    Nama = "Teknik Elektro"
+    Mata_Kuliah = "Pengantar Teknik ELektro"
+    # mengakses variabel lokal
+    print("\nProdi:", Nama)
+    print("Mata Kuliah:", Mata_Kuliah)
+
+print("Prodi:", Nama)
+print("Mata Kuliah:", Mata_Kuliah)
+info()
+
+# Program Menggunakan Fungsi

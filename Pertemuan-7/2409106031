@@ -156,7 +156,7 @@ def show_data():
         print("ID", "Nama Buku")
         for indeks in range(len(buku)):
             print (indeks, buku[indeks])
-            
+
 # fungsi untuk menambah data
 def insert_data():
     buku_baru = input("Judul Buku : ")
@@ -207,3 +207,4 @@ def show_menu():
 
 while (True):
     show_menu()
+

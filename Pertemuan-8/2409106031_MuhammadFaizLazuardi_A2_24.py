@@ -48,7 +48,7 @@ clean() # dipakai untuk membersihkan tampilan terminal
 # try:
 #     nama = input("Hello, what's your name? ")
 #     if len(nama) > 5:
-#         raise ValueError("Nama tidak boleh lebih dari 5 karakter") 
+#         raise ValueError("Nama tidak boleh lebih dari 5 karakter")
 # # dengan menggunakan 'raise' kita dapat menyesuaikan output apa yang akan keluar jika terdapat error
 
 # except ValueError as e: # tidak mesti menggunakan 'e'

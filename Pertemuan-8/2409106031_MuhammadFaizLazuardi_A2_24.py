@@ -54,38 +54,38 @@ clean() # dipakai untuk membersihkan tampilan terminal
 # except ValueError as e: # tidak mesti menggunakan 'e'
 #     print(e)
 
-def menu():
-    print("""
-<===== MENU =====>
-1. Tambah
-2. Keluar
-<================>
-""")
+# def tampilan_menu():
+#     print("""
+# <===== MENU =====>
+# 1. Tambah
+# 2. Keluar
+# <================>
+# """)
 
-def tambah():
-    angka1 = int(input("\nMasukkan Angka Pertama: "))
-    angka2 = int(input("Masukkan Angka Kedua: "))
-    hasil = angka1 + angka2
-    print("Hasil Penjumlahan Adalah: ", hasil)
+# def tambah():
+#     angka1 = int(input("\nMasukkan Angka Pertama: "))
+#     angka2 = int(input("Masukkan Angka Kedua: "))
+#     hasil = angka1 + angka2
+#     print("Hasil Penjumlahan Adalah: ", hasil)
 
-def program():
-    while True:
-        menu()
-        pilih1 = input("Masukkan Pilihan Anda: ")
-        clean()
-        try:
-            if pilih1 == "1":
-                tambah()
-            elif pilih1 == "2":
-                exit()
-            else:
-                print("Pilihan Invalid")
+# def program():
+#     while True:
+#         tampilan_menu()
+#         pilih1 = input("Masukkan Pilihan Anda: ")
+#         clean()
+#         try:
+#             if pilih1 == "1":
+#                 tambah()
+#             elif pilih1 == "2":
+#                 exit()
+#             else:
+#                 print("Pilihan Invalid")
 
-        except ValueError:
-            clean()
-            print("Input Yang Kamu Masukkan Bukan Angka")
+#         except ValueError:
+#             clean()
+#             print("Input Yang Kamu Masukkan Bukan Angka")
 
-program()
+# program()
 
 
 #                   External File
